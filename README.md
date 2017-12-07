@@ -6,11 +6,12 @@ LatinHist-98000.pyrnn.gz is a mixed OCRopus model trained on twelve Latin books 
 
 The Books folder contains seven early printed books used for evaluation in [2]. For each book we made 150 lines of GT available as well as a strong individual model (coming soon) trained on an extensive amount of lines (at least 1,500). For details about the books please see [2].
 
+For additional GT for Latin, Greek and German Fraktur please see the [CIS OCR Testset](https://github.com/cisocrgroup/Resources/tree/master/ocrtestset).
+
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-</a><br />All data available in this repository is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+</a><br />All data available in this repository is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## Citation
