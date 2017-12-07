@@ -1,6 +1,11 @@
 # OCR_Testdata_EarlyPrintedBooks
 A selection of test lines of several early printed books as well as the corresponding individual OCRopus models and mixed models.
 
+## Data
+LatinHist-98000.pyrnn.gz is a mixed OCRopus model trained on twelve Latin books printed with Antiqua types between 1471 and 1686 with a focus (ten out of twelve) on early works produced before 1600. For details about the books please see [1] . The training was performed on 8,684 lines and the best model was chosen by evaluating all resulting models on 2,432 previously unseen test lines. The lowest achieved CER was 2.92% after 98,000 training steps.
+
+The Books folder contains seven early printed books used for evaluation in [2]. For each book we made 150 lines of GT available as well as a strong individual model (coming soon) trained on an extensive amount of lines (at least 1,500). For details about the books please see [2].
+
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
@@ -12,7 +17,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License<
 Please cite (one of) the following publications when using the data.
 
 ### Latin Hist
-Springmann et al.. (2016). Automatic quality evaluation and (semi-) 
+[1] Springmann et al.. (2016). Automatic quality evaluation and (semi-) 
 automatic improvement of OCR models for historical printings. 
 [ArXiv e-prints](https://arxiv.org/abs/1606.05157).
 
@@ -26,7 +31,7 @@ automatic improvement of OCR models for historical printings.
 }
 
 ### Seven Mixed Early Printed Books
-Reul et al.. (2017). Improving OCR Accuracy on Early Printed Books by Utilizing Cross Fold Training and Voting. 
+[2] Reul et al.. (2017). Improving OCR Accuracy on Early Printed Books by Utilizing Cross Fold Training and Voting. 
 [ArXiv e-prints](https://arxiv.org/abs/1711.09670). Submitted to the 13th IAPR International Workshop on Document Analysis Systems.
 
 @article{reul2017voting,
