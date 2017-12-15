@@ -22,6 +22,7 @@ Please cite (one of) the following publications when using the data.
 automatic improvement of OCR models for historical printings. 
 [ArXiv e-prints](https://arxiv.org/abs/1606.05157).
 
+```
 @article{springmann2016automatic,
   title = {Automatic quality evaluation and (semi-) automatic
 		  improvement of {OCR} models for historical printings},
@@ -30,11 +31,13 @@ automatic improvement of OCR models for historical printings.
   url = {https://arxiv.org/abs/1606.05157},
   year = {2016}
 }
+```
 
 ### Seven Mixed Early Printed Books
 [2] Reul et al.. (2017). Improving OCR Accuracy on Early Printed Books by Utilizing Cross Fold Training and Voting. 
 [ArXiv e-prints](https://arxiv.org/abs/1711.09670). Submitted to the 13th IAPR International Workshop on Document Analysis Systems.
 
+```
 @article{reul2017voting,
   title = {Improving {OCR} Accuracy on Early Printed Books by Utilizing Cross Fold Training and Voting},
   author = {Reul, Christian and Springmann, Uwe and Wick, Christoph and Puppe, Frank},
@@ -42,3 +45,4 @@ automatic improvement of OCR models for historical printings.
   url = {https://arxiv.org/abs/1711.09670},
   year = {2017}
 }
+```
